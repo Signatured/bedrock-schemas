@@ -14,13 +14,11 @@
     "minecraft:item": {
       "additionalProperties": false,
       "required": [
-        "description",
-        "components"
+        "description"
       ],
       "type": "object",
       "properties": {
         "description": {
-          "additionalProperties": false,
           "type": "object",
           "properties": {
             "identifier": {
