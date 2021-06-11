@@ -14,7 +14,8 @@
     "minecraft:item": {
       "additionalProperties": false,
       "required": [
-        "description"
+        "description",
+        "components"
       ],
       "type": "object",
       "properties": {
